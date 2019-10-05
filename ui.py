@@ -33,6 +33,6 @@ img = ImageTk.PhotoImage(Image.open(path))
 panel = Label(root, image = img).pack()
 label_3 = Label(root,text="SEM VI Mini Project",font=("verdana",15,"bold italic"),fg='#f51deb',bg ='black').pack()
 root.configure(background = 'black')
-label_4= Label(root, text = "Project by- Yugal Tale", font = ("Arial Black", 15, "bold"),bg="black", fg = "red").place(x = 50, y = 650)
+label_4= Label(root, text = "Project by- Vedant davile", font = ("Arial Black", 15, "bold"),bg="black", fg = "red").place(x = 50, y = 650)
 
 root.mainloop()
