@@ -11,8 +11,8 @@ root.resizable(False, False)
 ##Heading
 #heading = Label(root, text = "Twitter Sentiment Analysis ", font = ("Times", 30, "bold italic underline"),bg="black", fg = "red").pack()
 
-label_1 = Label(root, text = "Enter the word to analyse", font = ("Arial Black", 15, "bold"),bg="black", fg = "red").place(x = 90, y = 300)
-label_2 = Label(root,text="Note:- It may take some time for the result to be displayed.",font=("Comic Sans MS",20,"italic"),fg='yellow',bg ='black').place(x=145,y=550)
+label_1 = Label(root, text = "Enter the word you want to analyse", font = ("Arial Black", 15, "bold"),bg="black", fg = "red").place(x = 90, y = 300)
+label_2 = Label(root,text="Note:- It might take some time for the result to be displayed.",font=("Comic Sans MS",20,"italic"),fg='yellow',bg ='black').place(x=145,y=550)
 
 word = StringVar()
 query = StringVar()
