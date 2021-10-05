@@ -35,4 +35,5 @@ label_3 = Label(root,text="SEM VI Mini Project",font=("verdana",15,"bold italic"
 root.configure(background = 'black')
 label_4= Label(root, text = "Project by- Yugal Tale", font = ("Arial Black", 15, "bold"),bg="black", fg = "red").place(x = 50, y = 650)
 
+#root.mainloop()
 root.mainloop()
