@@ -1,10 +1,10 @@
 import os
-print('#######################################################################################################')
+print('******************************************************************************************************')
 os.system('figlet Twitter Sentiment Analyisis')
 print('Note:1)Polarity=in sentiment analysis it refers to identifying sentiment orientation (positive, neutral, and negative).')
 print('2)Subjectivity= expressions are opinions that describe people’s feelings towards a specific subject or topic.')
 print('3)Assisment= Analysis of special word in the tweet.')
-print('#######################################################################################################')
+print('*******************************************************************************************************')
 os.system('python ui.py > o.txt')
 os.system('python test.py > op.txt')
 #os.system('kate op.txt')
